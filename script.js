@@ -11,7 +11,7 @@ const iniciarOuPausarBt = document.querySelector('#start-pause span')
 const iniciarOuPausarBtIcone = document.querySelector(".app__card-primary-butto-icon") 
 const tempoNaTela = document.querySelector('#timer')
 
-const musica = new Audio('./sons/luna-rise-part-one.mp3')
+const musica = new Audio(src='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjCh5np7MGEAxVOqpUCHarFBJYQ78AJegQIEhAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt7Xi1Jt9lXM&usg=AOvVaw1B_9PhnmAVWu40i3iOdHZy&opi=89978449')
 const audioPlay = new Audio('./sons/play.wav');
 const audioPausa = new Audio('./sons/pause.mp3');
 const audioTempoFinalizado = new Audio('./sons/beep.mp3')
